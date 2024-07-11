@@ -33,4 +33,4 @@ targets:
     run_as:
       # This runs as cfuentes@thoughtworks.com in production. We could also use a service principal here,
       # see https://docs.databricks.com/dev-tools/bundles/permissions.html.
-      user_name: cfuentes@thoughtworks.com
+      user_name: mmurillo@thoughtworks.com
