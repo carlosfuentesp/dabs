@@ -5,9 +5,9 @@ resources:
       name: dabs_job
 
       schedule:
-        # Run every day at 8:00 AM
-        quartz_cron_expression: '44 00 8 * * ?'
-        timezone_id: Europe/Amsterdam
+        # Run every Monday at 8:00 AM PST
+        quartz_cron_expression: '0 0 8 ? * MON *'
+        timezone_id: America/Los_Angeles
 
       email_notifications:
         on_failure:
