@@ -27,3 +27,6 @@ resources:
             autoscale:
                 min_workers: 1
                 max_workers: 2
+      permissions:
+        - level: CAN_MANAGE
+          user_name: cfuentes@thoughtworks.com
