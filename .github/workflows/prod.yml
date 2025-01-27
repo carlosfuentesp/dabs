@@ -11,6 +11,7 @@ on:
     paths:
       - "**/*.yml"
       - "**/*.py"
+      - "**/*.ipynb"
 
 jobs:
   deploy:
